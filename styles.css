@@ -1,0 +1,160 @@
+/* General Styles */
+body {
+    font-family: 'Arial', sans-serif;
+    background-color: #f4f4f4;
+    color: #333;
+    margin: 0px;
+    margin-left: 200px;
+    margin-right: 200px;
+    padding: 20px;
+}
+
+/* Header */
+#header {
+    text-align: center;
+    padding: 20px;
+    background-color: #007bff;
+    color: white;
+    border-radius: 5px;
+}
+
+.main-title {
+    margin: 0;
+}
+
+/* Image Styling */
+.image-container {
+    text-align: center;
+    margin: 20px 0;
+}
+
+#featured-image {
+    width: 60%;
+    border-radius: 10px;
+    box-shadow: 5px 5px 15px rgba(0, 0, 0, 0.2);
+}
+
+/* Ordered List Styling */
+#list-section {
+    padding: 10px;
+    background-color: white;
+    border-radius: 5px;
+    margin: 20px 0;
+}
+
+.styled-list {
+    list-style-type: upper-roman;
+    padding-left: 30px;
+    margin: 20px auto;
+    width: fit-content;
+}
+
+.list-item {
+    color: #007bff;
+    font-weight: bold;
+}
+
+/* Table Styling */
+#table-section {
+    margin-top: 20px;
+}
+
+.contact-table {
+    width: 100%;
+    border-collapse: collapse;
+    background-color: white;
+}
+
+.table-header {
+    background-color: #007bff;
+    color: white;
+}
+
+.table-row:nth-child(even) {
+    background-color: #f4f4f4;
+}
+
+th, td {
+    border: 1px solid #ddd;
+    padding: 10px;
+    text-align: left;
+}
+
+/* Form Styling */
+#form-section {
+    padding: 20px;
+    background-color: white;
+    border-radius: 10px;
+    box-shadow: 0px 4px 10px rgba(0, 0, 0, 0.1);
+    width: 97%;
+    margin-top: 20px;
+}
+
+.registration-form {
+    display: flex;
+    flex-direction: column;
+    width: 90%;
+    /* margin: 20px; */
+}
+
+.form-input {
+    display: block;
+    width: 100%;
+    margin: 10px 0;
+    padding: 10px;
+    border: 1px solid #ddd;
+    border-radius: 5px;
+}
+
+/* Styling for the fieldset */
+#interests {
+    border: 2px solid #007bff;
+    border-radius: 8px;
+    padding: 15px;
+    margin: 20px 0;
+    background-color: #f9f9f9;
+    box-shadow: 2px 2px 10px rgba(0, 0, 0, 0.1);
+}
+
+/* Legend Styling */
+#interests legend {
+    font-weight: bold;
+    color: #007bff;
+    padding: 5px 10px;
+}
+
+/* Checkbox Styling */
+#interests input[type="checkbox"] {
+    margin-right: 8px;
+    transform: scale(1.2); /* Makes checkboxes larger */
+}
+
+/* Label Styling */
+#interests label {
+    font-size: 16px;
+    color: #333;
+    cursor: pointer;
+    margin-right: 15px;
+}
+
+/* Hover Effect */
+#interests label:hover {
+    color: #007bff;
+    text-decoration: underline;
+}
+
+
+.submit-button {
+    background-color: #007bff;
+    color: white;
+    padding: 10px;
+    border: none;
+    border-radius: 5px;
+    width: 100%;
+    cursor: pointer;
+    margin: 20px;
+}
+
+.submit-button:hover {
+    background-color: #0056b3;
+}

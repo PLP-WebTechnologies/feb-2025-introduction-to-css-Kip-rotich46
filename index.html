@@ -1,0 +1,87 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Styled HTML Page</title>
+    <link rel="stylesheet" href="styles.css"> <!-- Linking external CSS -->
+</head>
+<body>
+
+    <header id="header">
+        <h1 class="main-title">Welcome to My Styled Webpage</h1>
+    </header>
+
+    <section class="image-container">
+        <h2>Embedded Image</h2>
+        <img id="featured-image" src="pexels.jpg" alt="Beautiful Nature">
+    </section>
+
+    <section id="list-section">
+        <h2>Ordered List</h2>
+        <ol class="styled-list">
+            <li class="list-item">Item One</li>
+            <li class="list-item">Item Two</li>
+            <li class="list-item">Item Three</li>
+        </ol>
+    </section>
+
+    <section id="table-section">
+        <h2>Contact Table</h2>
+        <table class="contact-table">
+            <tr>
+                <th class="table-header">Name</th>
+                <th class="table-header">Address</th>
+                <th class="table-header">Mobile</th>
+                <th class="table-header">Email</th>
+            </tr>
+            <tr class="table-row">
+                <td>John Doe</td>
+                <td>123 Street</td>
+                <td>+1234567890</td>
+                <td>john@example.com</td>
+            </tr>
+            <tr class="table-row">
+                <td>Jane Smith</td>
+                <td>456 Avenue</td>
+                <td>+9876543210</td>
+                <td>jane@example.com</td>
+            </tr>
+        </table>
+    </section>
+
+    <section id="form-section">
+        <h2>Registration Form</h2>
+        <form class="registration-form">
+            <label for="name">Name:</label>
+            <input type="text" id="name" class="form-input" placeholder="Enter your name" required>
+
+            <label for="email">Email:</label>
+            <input type="email" id="email" class="form-input" placeholder="Enter your email" required>
+
+            <label for="password">Password:</label>
+            <input type="password" id="password" class="form-input" placeholder="Enter your password" required>
+
+            <label for="dob">Date of Birth:</label>
+            <input type="date" id="dob" class="form-input" required>
+
+            <label for="gender">Gender:</label>
+            <select id="gender" class="form-input">
+                <option value="male">Male</option>
+                <option value="female">Female</option>
+            </select>
+
+            <fieldset id="interests">
+                <legend>Interests</legend>
+                <input type="checkbox" id="coding">
+                <label for="coding">Coding</label>
+                <input type="checkbox" id="music">
+                <label for="music">Music</label>
+            </fieldset>
+
+            <button type="submit" class="submit-button">Register</button>
+        </form>
+    </section>
+
+</body>
+</html>
